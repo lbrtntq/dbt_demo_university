@@ -1,0 +1,13 @@
+dbt_plv:
+  outputs:
+    dev:
+      account: nt16847.ap-southeast-1
+      database: PLV
+      password: plvuser123
+      role: DBT_ROLE
+      schema: RAW
+      threads: 1
+      type: snowflake
+      user: PLV_USER
+      warehouse: compute_wh
+  target: dev

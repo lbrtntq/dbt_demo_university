@@ -1,0 +1,15 @@
+version 2:
+
+models:
+  - name: dim_faculty
+    config:
+        materialized: table
+        schema: marts
+  - name: dim_department
+    config:
+        materialized: table
+        schema: marts
+  - name: facts_teaching_assignments
+    config:
+        materialized: table
+        schema: marts

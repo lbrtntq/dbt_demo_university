@@ -1,0 +1,10 @@
+sources:
+  - name: raw_data
+    database: PLV
+    schema: raw
+    tables:
+      - name: raw_course  
+      - name: raw_department
+      - name: raw_faculty  
+      - name: raw_semester
+      - name: raw_teaching_assignments     

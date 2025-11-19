@@ -1,0 +1,27 @@
+version 2:
+
+models:
+  - name: staging_faculty
+    config:
+        materialized: table
+        schema: staging
+
+  - name: staging_course
+    config:
+        materialized: table
+        schema: staging
+
+  - name: staging_department
+    config:
+        materialized: table
+        schema: staging
+
+  - name: staging_semester
+    config:
+        materialized: table
+        schema: staging
+
+  - name: staging_teaching_assignments
+    config:
+        materialized: table
+        schema: staging
