@@ -13,3 +13,11 @@ models:
     config:
         materialized: table
         schema: marts
+  - name: dim_course
+    config:
+        materialized: table
+        schema: marts
+  - name: dim_time
+    config:
+        materialized: table
+        schema: marts
